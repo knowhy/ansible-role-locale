@@ -1,3 +1,5 @@
+---
+
 galaxy_info:
   author: Henrik Pingel
   description: Ansible role to configure and generate system locales.
@@ -9,35 +11,35 @@ galaxy_info:
   github_branch: master
 
   platforms:
-  - name: Fedora
-    versions:
-      - all
-  - name: GenericLinux
-    versions:
-      - all
-      - any
-  - name: Amazon
-    versions:
-      - all
-  - name: ArchLinux
-    versions:
-      - all
-      - any
-  - name: Ubuntu
-    versions:
-      - all
-  - name: Debian
-    versions:
-      - all
-  - name: EL
-    versions:
-     - all
-  - name: opensuse
-    versions:
-     - all
-  - name: SLES
-    versions:
-   - all
+    - name: Fedora
+      versions:
+        - all
+    - name: GenericLinux
+      versions:
+        - all
+        - any
+    - name: Amazon
+      versions:
+        - all
+    - name: ArchLinux
+      versions:
+        - all
+        - any
+    - name: Ubuntu
+      versions:
+        - all
+    - name: Debian
+      versions:
+        - all
+    - name: EL
+      versions:
+        - all
+    - name: opensuse
+      versions:
+        - all
+    - name: SLES
+      versions:
+        - all
 
   galaxy_tags: [locale]
 
