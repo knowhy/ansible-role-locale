@@ -1,0 +1,4 @@
+---
+
+- name: Generate locale.
+  command: "localedef -v -c -i {{ locale_lang }} -f {{ locale_character_set }} {{ locale_lang }}.{{ locale_character_set }}"

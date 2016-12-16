@@ -1,4 +1,4 @@
 ---
 
-- name: generate locale
+- name: Generate locale.
   command: locale-gen

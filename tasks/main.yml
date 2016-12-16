@@ -5,7 +5,12 @@
   template:
     src: locale.gen.j2
     dest: /etc/locale.gen
-  notify: generate locale
+
+- include: setup-RedHat.yml
+  when: ansible_os_family == 'RedHat'
+
+- include: setup-non-RedHat.yml    
+  when: ansible_os_family != 'RedHat'
 
 - name: Configure system locale.
   template:
