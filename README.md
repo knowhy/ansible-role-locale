@@ -1,6 +1,8 @@
 ansible-role-locale
 ===================
 
+[![Build Status](https://travis-ci.org/knowhy/ansible-role-locale.svg?branch=master)](https://travis-ci.org/knowhy/ansible-role-locale)
+
 Ansible role to configure system-wide locale settings.
 
 The abstracts generation and setting of system locales.
