@@ -2,3 +2,4 @@
 
 - name: Generate locale.
   command: locale-gen
+  when: locale_gen | changed
