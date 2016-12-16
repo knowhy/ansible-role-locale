@@ -1,0 +1,20 @@
+---
+# defaults file for ansible-role-locale
+
+locale_character_set: UTF-8
+locale_lang: en_US
+locale_language:
+  - en
+  - de
+locale_ctype:
+locale_numeric:
+locale_time:
+locale_collate:
+locale_monetary:
+locale_messages:
+locale_paper:
+locale_name:
+locale_address:
+locale_telephone:
+locale_measurement:
+locale_identification:

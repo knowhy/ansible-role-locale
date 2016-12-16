@@ -1,0 +1,14 @@
+LANG={{ locale_lang }}.{{ locale_character_set }}
+LANGUAGE={% for language in locale_language %}{{ language }}{% if not loop.last %}:{% endif %}{% endfor %}
+{% if locale_ctype %}LC_CTYPE={{ locale_ctype }}{% endif %}
+{% if locale_numeric %}LC_NUMERIC={{ locale_numeric }}{% endif %}
+{% if locale_time %}LC_TIME={{ locale_time }}{% endif %}
+{% if locale_collate %}LC_COLLATE={{ locale_collate }}{% endif %}
+{% if locale_monetary %}LC_MONETARY={{ locale_monetary }}{% endif %}
+{% if locale_messages %}LC_MESSAGES={{ locale_messages }}{% endif %}
+{% if locale_paper %}LC_PAPER={{ locale_paper }}{% endif %}
+{% if locale_name %}LC_NAME={{ locale_name }}{% endif %}
+{% if locale_address %}LC_ADDRESS={{ locale_address }}{% endif %}
+{% if locale_telephone %}LC_TELEPHONE={{ locale_telephone }}{% endif %}
+{% if locale_measurement %}LC_MEASUREMENT={{ locale_measurement }}{% endif %}
+{% if locale_identification %}LC_IDENTIFICATION={{ locale_identification }}{% endif %}
